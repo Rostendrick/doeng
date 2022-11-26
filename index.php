@@ -10,12 +10,10 @@ switch($page) {
         break;
     case 'words-study':
         include 'words-study.php';
-        break;
-    case '':
-        include 'index.html';
+        // include 'index.html';
         break;
     default:
         echo "page not found";
 };
-// include 'footer.html';
+include 'footer.html';
 ?>

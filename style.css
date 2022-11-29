@@ -91,7 +91,6 @@ main {
 }
 
 .variant:hover {
-    /* background-color: red; */
     transform: translate(0, -3px);
     background-color: rgb(245, 245, 245);
 }

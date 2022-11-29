@@ -12,6 +12,9 @@ switch($page) {
         include 'words-study.php';
         // include 'index.html';
         break;
+    case 'answer-handler':
+        include 'answers-handler.php';
+        break;
     default:
         echo "page not found";
 };
